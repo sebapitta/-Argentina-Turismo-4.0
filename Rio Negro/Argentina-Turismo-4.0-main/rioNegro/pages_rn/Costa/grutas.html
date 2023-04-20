@@ -1,0 +1,253 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link rel="stylesheet"
+    href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css"
+    integrity="sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI=" crossorigin="" />
+  <link rel="stylesheet" href="../../css_rn/main.css">
+  <link rel="stylesheet" href="../../css_rn/rioNegro.css">
+  <title>Las Grutas</title>
+</head>
+
+<body class="body_rioNegro">
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" id="navbar">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="../../img_rn/AT40-LOGO-05.png" alt="" width="100">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="../../../index.html">Inicio</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                Río Negro
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <li><a class="dropdown-item" href="../rioNegro.html">Río Negro</a></li>
+                <li><a class="dropdown-item" href="../Cordillera/cordillera.html">Cordillera</a></li>
+                <li><a class="dropdown-item" href="./costa.html">Costa</a></li>
+                <li><a class="dropdown-item" href="../estepa.html">Estepa</a></li>
+                <li><a class="dropdown-item" href="../valle.html">Valle</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                Costa
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <li><a class="dropdown-item" href="./condor.html">El Cóndor</a></li>
+                <li><a class="dropdown-item" href="./doradas.html">Playas Doradas</a></li>
+                <li><a class="dropdown-item" href="./viedma.html">Viedma</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link active dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                Las Grutas
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <li><a class="dropdown-item" href="#act_grutas">Qué hacer?</a></li>
+                <li><a class="dropdown-item" href="#hot_grutas">Donde Dormir?</a></li>
+              </ul>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Mapa interactivo</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contactanos</a>
+            </li>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <section class="sec_info">
+      <div class="text_info">
+        <h2>Las Grutas</h2>
+        <p>Es el más importante balneario marítimo de la Patagonia. La villa se destaca por poseer las aguas más cálidas
+          en la
+          costa de <span>Argentina</span>.</p>
+        <p> El mar se caracteriza también por su intenso color azul y por la transparencia y alta concentración de sales
+          y yodo,
+          factores que le otorgan un alto valor hipertónico, especialmente para niños y ancianos.</p>
+        <p>Su nombre se debe a la presencia de cambiantes formaciones cavernosas labradas por la erosión marina en los
+          acantilados,
+          los que poseen una altura de unos 8 metros, en algunos sectores.
+        </p>
+        <p><span>Qué hacer en Las Grutas...?</span></p>
+      </div>
+      <div class="img_info">
+        <img src="../../img_rn/pag_grutas.jpg" class="img" alt="Las Grutas">
+      </div>
+    </section>
+    <section class="galeria_actividades" id="act_grutas">
+      <div class="activ_cordillera">
+        <div class="container_card">
+          <div class="card mb-5">
+            <div class="card_img">
+              <img src="../../img_rn/grutas_a_buceo.jpg" alt="Buceo en Las Grutas">
+            </div>
+            <div class="card_textos">
+              <h4>Buceo en Las Grutas</h4>
+              <p>La naturaleza submarina del <span>Golfo San Matías</span>, una experiencia para disfrutar todo el
+                año.<br>El <span>bautismo submarino</span> permite a todo público sumergirse en los primeros metros de
+                una experiencia que cambia la manera
+                de ver las cosas.<br>Para <span>buzos experimentados</span> existen excursiones especiales.<br></p>
+            </div>
+          </div>
+          <div class="card mb-5">
+            <div class="card_img">
+              <img src="../../img_rn/grutas_a_salinas.jpg" alt="Salinas del Gualicho">
+            </div>
+            <div class="card_textos">
+              <h4>Salinas del Gualicho</h4>
+              <p>Se encuentran a unos 50 km al oeste de <span>Las Grutas</span>, desde donde diariamente salen las
+                excursiones.<br>Las excursiones al salar son por la tarde, cuando la caída del sol crea fantásticos
+                paisajes que se reflejan en el
+                espejo blanco y la noche da paso a un cielo inmenso sin contaminación lumínica que se llena de
+                estrellas.</p>
+            </div>
+          </div>
+          <div class="card mb-5">
+            <div class="card_img">
+              <img src="../../img_rn/grutas_a_astro.jpg" alt="Astroturismo">
+            </div>
+            <div class="card_textos">
+              <h4>Astroturismo</h4>
+              <p>Una tentadora propuesta que invita a los turistas a
+                visualizar los encantos del cielo nocturno desde ambientes únicos, a través de potentes telescopios
+                ubicados en sitios
+                estratégicos y permiten obtener incomparables vistas del firmamento.<br>Durante todo el año se accede a
+                observaciones con telescopios, salidas de <span>Astrofotografía Nocturna</span> por las playas
+                grutenses, charlas, cursos y
+                talleres.</p>
+            </div>
+          </div>
+          <div class="card mb-5">
+            <div class="card_img">
+              <img src="../../img_rn/grutas_a_feria.jpg" alt="Feria de artesanos">
+            </div>
+            <div class="card_textos">
+              <h4>Ferias de Artesanos y La Peatonal</h4>
+              <p>El paseo nocturno es un clásico en la localidad balnearia de <span>Las Grutas</span>.<br><span>La Feria
+                  de Artesanos</span>, cuenta con más de cien puestos estables, conformada por artesanos de distintos
+                puntos del país, de la Patagonia y
+                locales.<br>Sólo unas pocas cuadras conforman <span>La Peatonal</span>, pintoresca y alegre, sobre el
+                casco más antiguo de la ciudad, con <span>locales comerciales, bares, cafeterías y espectáculos</span>.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="alojamiento">
+      <table class="table" id="hot_grutas">
+        <thead id="Tabla">
+          <tr>
+            <th scope="col" colspan=3>
+              <h3>Donde alojarse</h3>
+            </th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th>
+              <h5>Hotel Acantilado</h5>
+              </td>
+            <td class="td_dom">San Antonio 1065<br>Las Grutas - Río Negro</td>
+            <td class="td_info">Hotel informal con habitaciones sencillas, un restaurante, una piscina cubierta/al aire
+              libre y una tina.<br>Estacionamiento y Desayuno incluído.</td>
+          </tr>
+          <tr>
+            <th>
+              <h5>Hotel Riviera</h5>
+              </td>
+            <td class="td_dom">Av. Costanera 897,<br>Las Grutas - Río Negro</td>
+            <td class="td_info">
+              <p>Hotel informal con cafetería y habitaciones sencillas (algunas con balcón y vista al golfo).
+            </td>
+          </tr>
+          <tr>
+            <th>
+              <h5>Complejo Tamariscos</h5>
+              </td>
+            <td class="td_dom">Aguada Cecilio 560,<br>Las Grutas - Río Negro</td>
+            <td class="td_info">
+              <p>Habitaciones:Cama de dos plazas, baño en suite y servicio de desayuno a la
+                habitación.<br>Departamentos:Amplios, luminosos y totalmente equipados para hasta 2, 4, 6 y 8 personas.
+            </td>
+          </tr>
+          <tr>
+        </tbody>
+      </table>
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="footer_container">
+      <div class="contac_container">
+        <div>
+          <img src="../../img_rn/AT40-LOGO-05.png" alt="Logo Argentina Turismo 4.0" class="logo">
+        </div>
+        <div class="contact">
+          <ul>
+            <li>info_at4.0@argentinaturismo4.0.com</li>
+            <li>Sarmiento 440 - CABA</li>
+            <li><a href="#">El Equipo</a></li>
+            <li><a href="#">Contactanos</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="items">
+        <div>
+          <h6>A donde ir</h6>
+          <a href="#">Córdoba -</a>
+          <a href="#">Entre Ríos -</a>
+          <a href="#">Río Negro -</a>
+          <a href="#">Salta -</a>
+          <a href="#">Santa Fe</a>
+        </div>
+      </div>
+      <div class="redes">
+        <h6>Seguinos en:</h6>
+        <ul class="footer_links">
+          <li><a href="https://www.instagram.com" target="_blank"><i class="lab la-instagram"></i></a></li>
+          <li><a href="https://www.twitter.com" target="_blank"><i class="lab la-twitter"></i></a></li>
+          <li><a href="https://www.facebook.com" target="_blank"><i class="lab la-facebook-f"></i></a></li>
+          <li><a href="https://www.whatsapp.com" target="_blank"><i class="lab la-whatsapp"></i></a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+
+
+
+
+  <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"
+    integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM=" crossorigin=""></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+    integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+    integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+    crossorigin="anonymous"></script>
+
+  <script src="./map.js"></script>
+  </main>
+</body>
+
+</html>

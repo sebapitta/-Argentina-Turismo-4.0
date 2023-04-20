@@ -1,0 +1,256 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link rel="stylesheet"
+    href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css"
+    integrity="sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI=" crossorigin="" />
+  <link rel="stylesheet" href="../../css_rn/main.css">
+  <link rel="stylesheet" href="../../css_rn/rioNegro.css">
+  <title>El Bolson</title>
+</head>
+
+<body class="body_rioNegro">
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" id="navbar">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="../../img_rn/AT40-LOGO-05.png" alt="logo Argentina Turismo 4.0" width="100">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="../../../index.html">Inicio</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                Río Negro
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <li><a class="dropdown-item" href="../rioNegro.html">Río Negro</a></li>
+                <li><a class="dropdown-item" href="../Costa/costa.html">Costa</a></li>
+                <li><a class="dropdown-item" href="../estepa.html">Estepa</a></li>
+                <li><a class="dropdown-item" href="../valle.html">Valle</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              Cordillera
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <li><a class="dropdown-item" href="./cordillera.html">Cordillera</a></li>
+                <li><a class="dropdown-item" href="./dinaHuapi.html">Dina Huapi</a></li>
+                <li><a class="dropdown-item" href="./manso.html">El Manso</a></li>
+                <li><a class="dropdown-item" href="./bariloche.html">San Carlos de Bariloche</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link active dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                El Bolsón
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <li><a class="dropdown-item" href="#act_bolson">Qué hacer?</a></li>
+                <li><a class="dropdown-item" href="#hot_bolson">Donde Dormir?</a></li>
+              </ul>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Mapa interactivo</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contactanos</a>
+            </li>
+        </div>
+      </div>
+
+    </nav>
+  </header>
+  <main>
+    <section class="sec_info">
+      <div class="text_info">
+        <h2>El Bolsón</h2>
+        <p> Al sudoeste de la provincia de <span>Río Negro</span> y a 18 Km. del <span>Parque Nacional Lago Puelo</span>
+          en la Provincia de
+          <span>Chubut</span>, se encuentra <span>El Bolsón</span>, una región que centra su actividad en el cultivo
+          orgánico de la tierra,
+          las artesanías, la producción de dulces y cerveza y el turismo.
+        </p>
+        <p>Favorecido por un microclima apacible, este pueblo de montaña está preparado para recibir a todo tipo
+          de visitantes.
+          Naturaleza, aventura, historia, mitos, cultura y tranquilidad son algunos ingredientes que garantizan
+          unas gratas
+          vacaciones.</p>
+        <p><span>Qué hacer en El Bolsón...?</span></p>
+      </div>
+      <div class="img_info">
+        <img src="../../img_rn/pag_bolson.jpg" class="img" alt="El Bolsón">
+      </div>
+    </section>
+    <section class="galeria_actividades" id="act_bolson">
+      <div class="activ_cordillera">
+        <div class="container_card">
+          <div class="card mb-5">
+            <div class="card_img">
+              <img src="../../img_rn/bolson_a_activo.jpg" alt="Parapente en el Bolsón">
+            </div>
+            <div class="card_textos">
+              <h4>Turismo Activo</h4>
+              <p><span>Rafting</span> en los ríos Azul, Puelo, y Manso, <br><span>Parapente</span> desde la plataforma
+                del <span>Cerro
+                  Piltriquitron</span>, acompañado de un instructor, <br><span>Travesía en 4x4</span>: atravesando
+                caminos de difícil circulación y observando el imponente paisaje los cóndores que habitan la
+                zona.<br><span>Canopy</span> en cercanías de la <span>Catarata de Mallín Ahogado</span>.</p>
+            </div>
+          </div>
+          <div class="card mb-5">
+            <div class="card_img">
+              <img src="../../img_rn/bolson_a_piltri.jpg" alt="Piltriquitron">
+            </div>
+            <div class="card_textos">
+              <h4>Cerro Piltriquitrón y el Bosque Tallado</h4>
+              <p>Popularmente conocido como <span>Piltri</span> o <span>Portal Energético</span>.<br>Desde la plataforma
+                salen los vuelos en <span>Paraptene</span>, siendo este un lugar considerado como uno de los mejores del
+                país
+                para la práctica de este deporte.<br><span>El Bosque tallado</span>constituye un verdadero museo a cielo
+                abierto.</p>
+            </div>
+          </div>
+          <div class="card mb-5">
+            <div class="card_img">
+              <img src="../../img_rn/bolson_a_feria.jpg" alt="Feria Artesanal">
+            </div>
+            <div class="card_textos">
+              <h4>Feria Regional Artesanal de El Bolsón</h4>
+              <p>Participa un gran número de expositores, entre los cuales se encuentran <span>artesanos, artistas y
+                  productores artesanales</span> de toda la comarca.<br>También es posible apreciar gran variedad de
+                <span>espectáculos artísticos y musicales</span>, especialmente en temporada alta.<br>Se desarrolla los
+                Martes, Jueves y Sábados de 10 a 16 hs y los Domingos mismo horario pero con menos artesanos.
+            </div>
+          </div>
+          <div class="card mb-5">
+            <div class="card_img">
+              <img src="../../img_rn/bolson_a_cerveza.jpg" alt="Cerveza Artesanal">
+            </div>
+            <div class="card_textos">
+              <h4>Cerveza Artesanal</h4>
+              <p>Las visitas a <span>Cervecerías Artesanales</span> son parte de la experiencia total del viaje y, cada
+                vez más, el motivo
+                principal que mueve a los turistas a visitarnos.<br>El último martes de Febrero se reaiza <span>La
+                  Fiesta Nacional del Lúpulo</span> que atrae a miles de
+                visitantes cada año desde <span>1964</span>.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="alojamiento">
+      <table class="table" id="hot_bolson">
+        <thead id="Tabla">
+          <tr>
+            <th scope="col" colspan=3>
+              <h3>Donde alojarse</h3>
+            </th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th>
+              <h5>Cabañas Sublime Bolsón</h5>
+              </td>
+            <td class="td_dom">Saavedra 3089, <br>El Bolsón - Río Negro</td>
+            <td class="td_info">Cabañas Sublime Bolsón ofrece alojamiento a 6 minutos a pie de la plaza Pagano, centro
+              estratégico de la Ciudad. Hay WiFi gratuito en todas
+              las instalaciones. <br> Desayuno y estacionamiento gratis.</td>
+          </tr>
+          <tr>
+            <th>
+              <h5>La Casa de la Abuela</h5>
+              </td>
+            <td class="td_dom">Los
+              Notros 861,<br>El Bolsón - Río Negro</td>
+            <td class="td_info">
+              <p>La Casa De La Abuela Departamentos está situada a solo 150 metros de la plaza Pagano. Ofrece WiFi
+                gratuita
+                en todas las instalaciones.<br> Desayuno y estacionamiento gratis.
+            </td>
+          </tr>
+          <tr>
+            <th>
+              <h5>Camino a cascada escondida</h5>
+              </td>
+            <td class="td_dom">Km 15,<br>El Bolsón - Río Negro</td>
+            <td class="td_info">
+              <p>Somos un complejo resort de Cabañas Turísticas ubicado al pie de la Cordillera de los Andes. Contamos
+                con un amplio predio con acceso a costa de río, todas nuestras cabañas están completamente
+                equipadas.<br> Desayuno y estacionamiento gratis.
+            </td>
+          </tr>
+          <tr>
+        </tbody>
+      </table>
+    </section>
+  </main>
+    <footer class="footer">
+    <div class="footer_container">
+      <div class="contac_container">
+        <div>
+          <img src="../../img_rn/AT40-LOGO-05.png" alt="Logo Argentina Turismo 4.0" class="logo">
+        </div>
+        <div class="contact">
+          <ul>
+            <li>info_at4.0@argentinaturismo4.0.com</li>
+            <li>Sarmiento 440 - CABA</li>
+            <li><a href="#">El Equipo</a></li>
+            <li><a href="#">Contactanos</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="items">
+        <div>
+          <h6>A donde ir</h6>
+          <a href="#">Córdoba -</a>
+          <a href="#">Entre Ríos -</a>
+          <a href="#">Río Negro -</a>
+          <a href="#">Salta -</a>
+          <a href="#">Santa Fe</a>
+        </div>
+      </div>
+      <div class="redes">
+        <h6>Seguinos en:</h6>
+        <ul class="footer_links">
+          <li><a href="https://www.instagram.com" target="_blank"><i class="lab la-instagram"></i></a></li>
+          <li><a href="https://www.twitter.com" target="_blank"><i class="lab la-twitter"></i></a></li>
+          <li><a href="https://www.facebook.com" target="_blank"><i class="lab la-facebook-f"></i></a></li>
+          <li><a href="https://www.whatsapp.com" target="_blank"><i class="lab la-whatsapp"></i></a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+
+
+
+  <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"
+    integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM=" crossorigin=""></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+    integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+    integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+    crossorigin="anonymous"></script>
+
+  <script src="./map.js"></script>
+  </main>
+</body>
+
+</html>

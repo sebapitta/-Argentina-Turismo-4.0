@@ -1,0 +1,240 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link rel="stylesheet"
+    href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css"
+    integrity="sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI=" crossorigin="" />
+  <link rel="stylesheet" href="../../css_rn/main.css">
+  <link rel="stylesheet" href="../../css_rn/rioNegro.css">
+  <title>El Cóndor</title>
+</head>
+
+<body class="body_rioNegro">
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" id="navbar">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="../../img_rn/AT40-LOGO-05.png" alt="" width="100">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#">Inicio</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                Río Negro
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <li><a class="dropdown-item" href="../rioNegro.html">Río Negro</a></li>
+                <li><a class="dropdown-item" href="../Cordillera/cordillera.html">Cordillera</a></li>
+                <li><a class="dropdown-item" href="./costa.html">Costa</a></li>
+                <li><a class="dropdown-item" href="../estepa.html">Estepa</a></li>
+                <li><a class="dropdown-item" href="../valle.html">Valle</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+               Costa
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <li><a class="dropdown-item" href="./grutas.html">Las Grutas</a></li>
+                <li><a class="dropdown-item" href="./doradas.html">Playas Doradas</a></li>
+                <li><a class="dropdown-item" href="./viedma.html">Viedma</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link active dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                El Cóndor
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <li><a class="dropdown-item" href="#act_condor">Qué hacer?</a></li>
+                <li><a class="dropdown-item" href="#hot_condor">Donde Dormir?</a></li>
+              </ul>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Mapa interactivo</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contactanos</a>
+            </li>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <section class="sec_info">
+      <div class="text_info">
+        <h2>El Cóndor</h2>
+        <p>A sólo 20 minutos de la ciudad de <span>Viedma</span>, es un espacio a orillas del mar para quienes eligen disfrutar del sol y la
+        playa. Su principal característica es la amplitud y tranquilidad de sus playas que se conjugan con los altos acantilados
+        característicos de la costa rionegrina y una rica biodiversidad.</p>
+        <p> Tradicionalmente, en el mes de enero, se realiza la <span>Fiesta del Mar</span> y <span>del Acampante</span> que año tras año ofrece actividades
+        de <span>recreación, shows musicales de nivel nacional y muestras de artesanos</span>.</p>
+        <p>Una de las características principales del balneario es la extensa franja de playas, de más 10 kilómetros, en las que se
+        pueden realizar distintas actividades de esparcimiento y pesca.
+        </p>
+        <p><span>Qué hacer en El Cóndor...?</span></p>
+      </div>
+      <div class="img_info">
+        <img src="../../img_rn/condor_pag.jpg" class="img" alt="El Condor">
+      </div>
+    </section>
+    <section class="galeria_actividades" id="act_condor">
+      <div class="activ_cordillera">
+        <div class="container_card">
+          <div class="card mb-5">
+            <div class="card_img">
+              <img src="../../img_rn/condor_a_faro.jpg" alt="Faro El Condor">
+            </div>
+            <div class="card_textos">
+              <h4>Visita al Faro</h4>
+              <p>Considerado el primer <span>Faro Continental</span> y el más antiguo de los faros en servicio en la <span>República Argentina</span>, en 2017 se convirtió en <span>Patrimonio Cultural de la Humanidad</span>. <br>Desde  allí, se puede observar el paisaje terrestre y marítimo, además de la confluencia del <span>Río Negro y el Océano Atlántico</span>.<br>su reflejo,con una intermitencia de 10 segundos, tiene una extensión de 16 millas náuticas.<br></p>
+            </div>
+          </div>
+          <div class="card mb-5">
+            <div class="card_img">
+              <img src="../../img_rn/condor_a_aventura.jpg" alt="Turismo Aventura">
+            </div>
+            <div class="card_textos">
+              <h4>Aventura Extrema</h4>
+              <p><span>El Cóndor</span> ofrece durante todo el año el mejor escenario natural para la práctica de deportes vinculados al viento.<br>El área, próxima a la desembocadura del <span>Río Negro</span> en el mar, es el mejor escenario de extensas playas de arena donde gran
+              cantidad de deportistas practican libremente <span>kitesurf, carrovelismo, surf, windsurf y kitebuggy</span>.<br>Por otra parte, es común ver <span>barriletes</span> en el sector de los acantilados, manejados por aficionados al vuelo</p>
+            </div>
+          </div>
+          <div class="card mb-5">
+            <div class="card_img">
+              <img src="../../img_rn/condor_a_loberia.jpg" alt="Lobería">
+            </div>
+            <div class="card_textos">
+              <h4>La Lobería</h4>
+              <p>Siguiendo 30 kilómetros más se accede a una playa verdaderamente singular, <span>La Lobería</span> caracterizada por sus <span>piletones
+              naturales</span> originados por la erosión del mar sobre la roca de los acantilados, los cuales se descubren durante la
+              bajamar.<br>Durante la temporada de verano, este balneario cuenta con playa de estacionamiento, restaurante, camping, baños y un
+              carrito elevador que sortea la gran escalinata por la cual se accede al mar.</p>
+            </div>
+          </div>
+          <div class="card mb-5">
+            <div class="card_img">
+              <img src="../../img_rn/condor_a_bermeja.jpg" alt="Reserva Punta Bermeja">
+            </div>
+            <div class="card_textos">
+              <h4>Reserva Provincial Punta Bermeja</h4>
+              <p>A 5km de <span>La Lobería</span> encontramos un apostadero permanente de más de 4.000 <span>lobos marinos de un pelo</span>.<br>Fue creada en el año 1971 con el objeto de conservar el sector de la costa en el que se emplaza la principal y más
+              importante <span>Colonia de lobos marinos de un pelo de la Patagonia</span>.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="alojamiento">
+      <table class="table" id="hot_condor">
+        <thead id="Tabla">
+          <tr>
+            <th scope="col" colspan=3>
+              <h3>Donde alojarse</h3>
+            </th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th>
+              <h5>El Pinar</h5>
+              </td>
+            <td class="td_dom">Manzana 805 Lote 6<br>El Condor - Río Negro</td>
+            <td class="td_info">Ofrece las opciones de casa o chalet.<br>El lugar de alojamiento posee: aire acondicionado, zona de cocina, lavadora, tv de pantalla plana y terraza.</td>
+          </tr>
+          <tr>
+            <th>
+              <h5>Complejo Lavandas</h5>
+              </td>
+            <td class="td_dom">Calle Arenas 1058,<br>El Condor - Río Negro</td>
+            <td class="td_info">
+              <p>Esta casa cuenta con 2 dormitorios, TV de pantalla plana y cocina.<br> Estacionamiento gratuito y Wifi.
+            </td>
+          </tr>
+          <tr>
+            <th>
+              <h5>Casa al lado del Mar</h5>
+              </td>
+            <td class="td_dom">Calle 20,<br>El Condor - Río Negro</td>
+            <td class="td_info">
+              <p>Los huéspedes de esta casa tienen acceso a una cocina totalmente equipada y a un balcón.<br>La casa da a una terraza y consta de 5 dormitorios. Hay TV de pantalla plana.
+            </td>
+          </tr>
+          <tr>
+        </tbody>
+      </table>
+    </section>
+  </main>
+  <section class="botonFlotante">
+    <a href="#navbar">
+      <div class="btn_flotante"><i class="las la-angle-double-up"></i></div>
+    </a>
+  </section>
+  <footer class="footer">
+    <div class="footer_container">
+      <div class="contac_container">
+        <div>
+          <img src="../../img_rn/AT40-LOGO-05.png" alt="Logo Argentina Turismo 4.0" class="logo">
+        </div>
+        <div class="contact">
+          <ul>
+            <li>info_at4.0@argentinaturismo4.0.com</li>
+            <li>Sarmiento 440 - CABA</li>
+            <li><a href="#">El Equipo</a></li>
+            <li><a href="#">Contactanos</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="items">
+        <div>
+          <h6>A donde ir</h6>
+          <a href="#">Córdoba -</a>
+          <a href="#">Entre Ríos -</a>
+          <a href="#">Río Negro -</a>
+          <a href="#">Salta -</a>
+          <a href="#">Santa Fe</a>
+        </div>
+      </div>
+      <div class="redes">
+        <h6>Seguinos en:</h6>
+        <ul class="footer_links">
+          <li><a href="https://www.instagram.com" target="_blank"><i class="lab la-instagram"></i></a></li>
+          <li><a href="https://www.twitter.com" target="_blank"><i class="lab la-twitter"></i></a></li>
+          <li><a href="https://www.facebook.com" target="_blank"><i class="lab la-facebook-f"></i></a></li>
+          <li><a href="https://www.whatsapp.com" target="_blank"><i class="lab la-whatsapp"></i></a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+
+
+
+  <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"
+    integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM=" crossorigin=""></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+    integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+    integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+    crossorigin="anonymous"></script>
+
+  <script src="./map.js"></script>
+  </main>
+</body>
+
+</html>

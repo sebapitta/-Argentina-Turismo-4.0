@@ -1,0 +1,241 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link rel="stylesheet"
+    href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css"
+    integrity="sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI=" crossorigin="" />
+  <link rel="stylesheet" href="../../css_rn/main.css">
+  <link rel="stylesheet" href="../../css_rn/rioNegro.css">
+  <title>El Manso</title>
+</head>
+
+<body class="body_rioNegro">
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" id="navbar">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="../../img_rn/AT40-LOGO-05.png" alt="" width="100">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="../../../index.html">Inicio</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                Río Negro
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <li><a class="dropdown-item" href="../rioNegro.html">Río Negro</a></li>
+                <li><a class="dropdown-item" href="./cordillera.html">Cordillera</a></li>
+                <li><a class="dropdown-item" href="../Costa/costa.html">Costa</a></li>
+                <li><a class="dropdown-item" href="../estepa.html">Estepa</a></li>
+                <li><a class="dropdown-item" href="../valle.html">Valle</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                Cordillera
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <li><a class="dropdown-item" href="./dinaHuapi.html">Dina Huapi</a></li>
+                <li><a class="dropdown-item" href="./bolson.html">El Bolsón</a></li>
+                <li><a class="dropdown-item" href="./bariloche.html">San Carlos de Bariloche</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link active dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                El Manso
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <li><a class="dropdown-item" href="#act_manso">Qué hacer?</a></li>
+                <li><a class="dropdown-item" href="#hot_manso">Donde Dormir?</a></li>
+              </ul>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Mapa interactivo</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contactanos</a>
+            </li>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <section class="sec_info">
+      <div class="text_info">
+        <h2>El Manso</h2>
+        <p> Se encuentra en <span>El Valle del Manso</span>, donde lagos y ríos de aguas cristalinas bañan el <span>Bosque Andino</span>.
+          Paraíso escondido a un costado de la legendaria Ruta 40 entre <span>Bariloche</span> y <span>El Bolsón</span>, donde reina el
+          silencio y la <span>Cordillera de Los Andes</span> se presenta como un telón de fondo omnipresente y encantador.</p>
+        <p>El <span>río Manso</span>, de aguas correntosas, frías y cristalinas es ideal para practicar para practicar <span>canotaje
+          o rafting</span>.</p>
+        <p><span>Qué hacer en El Manso...?</span></p>
+      </div>
+      <div class="img_info">
+        <img src="../../img_rn/pag_manso2jpg.jpg" alt="El manso" class="img">
+      </div>
+    </section>
+    <section class="galeria_actividades" id="act_manso">
+      <div class="activ_cordillera">
+        <div class="container_card">
+          <div class="card mb-5">
+            <div class="card_img">
+              <img src="../../img_rn/manso_a_raffting.jpg" alt="Rafting en el Río Manso">
+            </div>
+            <div class="card_textos">
+              <h4>Rafting Aventura</h4>
+              <p> <span>Rafting</span> con diferentes grados de dificultad, experimentando emoción y vértigo en un marco natural
+                sorprendente.<br>Las excursiones se realizan en balsas inflables que, por lo general, tienen capacidad
+                para 10 personas.<br><span>El río Manso</span> ofrece posibilidades de clase 1 y 2 deal para compartir en familia o
+                con amigos, y las clases 3 y 4 de mayor intensidad.</p>
+            </div>
+          </div>
+          <div class="card mb-5">
+            <div class="card_img">
+              <img src="../../img_rn/manso_a_valle.jpg" alt="Valle del Manso">
+            </div>
+            <div class="card_textos">
+              <h4>Valle del Río Manso</h4>
+              <p>Refugio de la naturaleza, un lugar magico donde el hombre vive sin alterar el ecosistema.<br>Acampar,
+                practicar deportes acuáticos, hacer cabalgatas y caminatas disfrutando del entorno, son algunas
+                actividades que podés hacer en este rincón enclavado en la <span>Cordillera de los Andes</span>.</p>
+            </div>
+          </div>
+          <div class="card mb-5">
+            <div class="card_img">
+              <img src="../../img_rn/manso_a_piletones.jpg" alt="Piletones del río Manso">
+            </div>
+            <div class="card_textos">
+              <h4>Piletones del Río Manso</h4>
+              <p>En medio de uno de los frondosos bosques patagónicos, se encuentra un paraíso oculto con hermosas
+                <span>piletas naturales</span> ideales para disfrutar en esta temporada de verano. Conocé el <span>Río Manso</span> y sus bellezas
+                increíbles.</p>
+            </div>
+          </div>
+          <div class="card mb-5">
+            <div class="card_img">
+              <img src="../../img_rn/manso_a_campcheto.jpg" alt="Camping">
+            </div>
+            <div class="card_textos">
+              <h4>Rio Manso Camp</h4>
+              <p>Un proyecto de campamento nómade de lujo.<br>La propuesta consiste en una experiencia de 3 días y 2
+                noches con todo incluído. Traslado, comidas elaboradas por <span>chef in situ</span>, vinos de la <span>Bodega Schroeder</span>,
+                carpas con <span>sommier king size</span> y vista al rio y las montañas.<br>Agenda diaria de actividades: <span>trekking,
+                rafting, mountain bike y clases de yoga</span> por la mañana.”</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="alojamiento">
+      <table class="table" id="hot_manso">
+        <thead id="Tabla">
+          <tr>
+            <th scope="col" colspan=3>
+              <h3>Donde alojarse</h3>
+            </th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th>
+              <h5>Cabañas Campestre</h5>
+              </td>
+            <td class="td_dom">Ruta N°83 km 28, <br>Valle del Manso - Río Negro</td>
+            <td class="td_info">Las Cabañas ofrecen alojamiento con WiFi y estacionaminto gratuitos, servicio de
+              limpieza y jardín con terraza y vistas a la ciudad. <br> Desayuno y estacionamiento gratis.</td>
+          </tr>
+          <tr>
+            <th>
+              <h5>Camping El Puerto</h5>
+              </td>
+            <td class="td_dom">Ruta 83 km 11,<br>Valle del Manso - Río Negro</td>
+            <td class="td_info">
+              <p>A orillas del Río Manso, con la mejor cerveza de la
+                zona y acompañado de una hermosa vista. Podés acampar o utilizar los dormis con duchas, fogones con
+                instalaciones eléctricas. El bar abre por las tardes.
+            </td>
+          </tr>
+          <tr>
+            <th>
+              <h5>La Reserva El Foyel</h5>
+              </td>
+            <td class="td_dom">Ruta Nac. 40 km 1958,5-El Foyel,<br>Valle del Manso - Río Negro</td>
+            <td class="td_info">
+              <p>Complejo Turístico de montaña<br>Ofrece servicio de Wifi, TV, heladera, cocina, calefacción y ropa de
+                cama.<br>Estacionamiento gratis.
+            </td>
+          </tr>
+          <tr>
+        </tbody>
+      </table>
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="footer_container">
+      <div class="contac_container">
+        <div>
+          <img src="../../img_rn/AT40-LOGO-05.png" alt="Logo Argentina Turismo 4.0" class="logo">
+        </div>
+        <div class="contact">
+          <ul>
+            <li>info_at4.0@argentinaturismo4.0.com</li>
+            <li>Sarmiento 440 - CABA</li>
+            <li><a href="#">El Equipo</a></li>
+            <li><a href="#">Contactanos</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="items">
+        <div>
+          <h6>A donde ir</h6>
+          <a href="#">Córdoba -</a>
+          <a href="#">Entre Ríos -</a>
+          <a href="#">Río Negro -</a>
+          <a href="#">Salta -</a>
+          <a href="#">Santa Fe</a>
+        </div>
+      </div>
+      <div class="redes">
+        <h6>Seguinos en:</h6>
+        <ul class="footer_links">
+          <li><a href="https://www.instagram.com" target="_blank"><i class="lab la-instagram"></i></a></li>
+          <li><a href="https://www.twitter.com" target="_blank"><i class="lab la-twitter"></i></a></li>
+          <li><a href="https://www.facebook.com" target="_blank"><i class="lab la-facebook-f"></i></a></li>
+          <li><a href="https://www.whatsapp.com" target="_blank"><i class="lab la-whatsapp"></i></a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+
+
+
+  <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"
+    integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM=" crossorigin=""></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+    integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+    integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+    crossorigin="anonymous"></script>
+
+  <script src="./map.js"></script>
+  </main>
+</body>
+
+</html>

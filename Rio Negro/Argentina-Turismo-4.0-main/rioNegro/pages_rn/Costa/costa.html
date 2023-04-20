@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link rel="stylesheet"
+    href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css"
+    integrity="sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI=" crossorigin="" />
+  <link rel="stylesheet" href="../../css_rn/main.css">
+  <link rel="stylesheet" href="../../css_rn/rioNegro.css">
+  <title>Río Negro - Costa</title>
+</head>
+
+<body class="body_rioNegro">
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid" id="nav_cordillera">
+        <a class="navbar-brand" href="#">
+          <img src="../../img_rn/AT40-LOGO-05.png" alt="logo Argentina Turismo 4.0" width="100">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="../../../index.html">Inicio</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Río Negro
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <li><a class="dropdown-item" href="../rioNegro.html">Río Negro</a></li>
+                <li><a class="dropdown-item" href="../Cordillera/cordillera.html">Cordillera</a></li>
+                <li><a class="dropdown-item" href="../estepa.html">Estepa</a></li>
+                <li><a class="dropdown-item" href="../valle.html">Valle</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdownMenuLink" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                Costa
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <li><a class="dropdown-item" href="./condor.html">El Cóndor</a></li>
+                <li><a class="dropdown-item" href="./grutas.html">Las Grutas</a></li>
+                <li><a class="dropdown-item" href="./doradas.html">Playas Doradas</a></li>
+                <li><a class="dropdown-item" href="./viedma.html">Viedma</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#">Mapa Interactivo</a>
+            </li>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../../index.html #title">Contactanos</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <section class="sec_info">
+      <div class="text_info">
+        <h2>Costa</h2>
+        <p>La playa y el mar son los protagonistas de los paisajes de nuestra bella costa patagónica. El epicentro natural de esta
+        zona es el Golfo San Matías, en torno al cual se distribuyen varias localidades costeras.</p>
+        <p>Recorrer la ruta escénica de los acantilados es una de las mejores maneras de apreciar los paisajes que se forman cuando
+        la estepa llega al mar.</p>
+        <p>A lo largo de esta ruta escénica hay acceso a diferentes balnearios y a una gran diversidad de playas, de arena o
+        pedregosas, que se extienden por cientos de metros entre el mar y los acantilados formándose, en algunos lugares,
+        piletones naturales de aguas calmas.</p>
+        <p>En Sierra Grande, se puede realizar turismo minero en las instalaciones de la que fuera la mina de hierro más grande de
+        Sudamérica. Además, desde esta localidad, se accede a Playas Doradas que, como sugiere su nombre, es un bello balneario
+        con extensas playas de arena fina y dorada.</p>
+      </div>
+      <div class="img_info">
+        <img src="../../img_rn/costa_pag.jpg" class="img" alt="Cordillera Rionegrina">
+      </div>
+    </section>
+    <section class="links">
+      <div card_link>
+        <a href="./condor.html"><img class="card_link_img" src="../../img_rn/linkCosta_condor.jpg" alt="El Condor">
+          <p>El Cóndor</p>
+        </a>
+      </div>
+      <div card_link>
+        <a href="./grutas.html"><img class="card_link_img" src="../../img_rn/linkCosta_grutas.jpg" alt="Las Grutas">
+          <p>Las Grutas</p>
+        </a>
+      </div>
+      <div card_link>
+        <a href="./doradas.html"><img class="card_link_img" src="../../img_rn/linkCosta_doradas.jpg" alt="Playas Doradas">
+          <p>Playas Doradas</p>
+        </a>
+      </div>
+      <div card_link>
+        <a href="./viedma.html"><img class="card_link_img" src="../../img_rn/linkCosta_viedma.jpg" alt="Viedma">
+          <p>Viedma</p>
+        </a>
+      </div>
+    </section>
+  
+  </main>
+  <footer class="footer">
+    <div class="footer_container">
+      <div class="contac_container">
+        <div>
+          <img src="../../img_rn/AT40-LOGO-05.png" alt="Logo Argentina Turismo 4.0" class="logo">
+        </div>
+        <div class="contact">
+          <ul>
+            <li>info_at4.0@argentinaturismo4.0.com</li>
+            <li>Sarmiento 440 - CABA</li>
+            <li><a href="#">El Equipo</a></li>
+            <li><a href="#">Contactanos</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="items">
+        <div>
+          <h6>A donde ir</h6>
+          <a href="#">Córdoba -</a>
+          <a href="#">Entre Ríos -</a>
+          <a href="#">Río Negro -</a>
+          <a href="#">Salta -</a>
+          <a href="#">Santa Fe</a>
+        </div>
+      </div>
+      <div class="redes">
+        <h6>Seguinos en:</h6>
+        <ul class="footer_links">
+          <li><a href="https://www.instagram.com" target="_blank"><i class="lab la-instagram"></i></a></li>
+          <li><a href="https://www.twitter.com" target="_blank"><i class="lab la-twitter"></i></a></li>
+          <li><a href="https://www.facebook.com" target="_blank"><i class="lab la-facebook-f"></i></a></li>
+          <li><a href="https://www.whatsapp.com" target="_blank"><i class="lab la-whatsapp"></i></a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+
+
+  <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"
+    integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM=" crossorigin=""></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+    integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+    integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+    crossorigin="anonymous"></script>
+  <script src="./rioNegro.js"></script>
+
+</body>
+
+</html>
