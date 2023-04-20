@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins';
+}
+
+main{
+  color: #2c2c3f;
+}
+
+.carousel-item-img {
+  width: 100vw;
+  height: 40vh;
+}
+
+.title {
+  margin: 2rem 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.title h1 {
+  color: #67d0e6;
+}
+
+.title p {
+  text-align: center;
+  color: #888;
+  font-weight: 400;
+}
+
+/* =============================================== */
+.links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  margin: 2rem;
+}
+
+.card_link {
+  display: flex;
+  flex-direction: column;
+}
+
+.card_link_img {
+  width: 280px;
+  height: 300px;
+  border-radius: 5px;
+  transition: 1s;
+  object-fit: cover;
+}
+
+.card_link_img:hover {
+  transform: scale(0.95)
+}
+
+.links a {
+  color: #2c2c3f;
+  text-decoration: none;
+  text-align: center;
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+@media (min-width:768px) {
+  .carousel-item-img {
+    height: 63vh;
+  }
+
+  .card_link_img {
+    width: 280px;
+    height: 320px;
+  }
+
+  .title h1 {
+    font-size: 3rem;
+  }
+
+  .logo {
+    width: 6rem;
+  }
+}
+
+@media (min-width:1024px) {
+
+  .title {
+    margin: 3rem 0;
+  }
+
+  .card_link_img {
+    width: 250px;
+    height: 350px;
+  }
+}
+
+/* ======================================================== */
+.sec_info {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 5rem;
+}
+
+.img_info {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+}
+
+.img_info img {
+  width: 250px;
+}
+
+.text_info {
+  max-width: 40%;
+  margin-left: 2rem;
+}
+
+span {
+  color:#444;
+  font-style: italic;
+  font-weight: 400;
+}
+/* ================================================================= */
+.container_card {
+  border-radius: 9px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  max-width: 100%;
+  margin: 5rem;
+}
+
+.card {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 90%;
+  border: none;
+}
+
+.card:nth-child(even) {
+  flex-direction: row-reverse;
+  align-self: flex-end;
+}
+
+.card_rn {
+  width: 430px;
+  height: 250px;
+}
+
+.card img {
+  width: 410px;
+  height: 250px;
+  border-radius: 8px;
+}  
+
+
+
+.card_textos {
+  max-width: 50%;
+  padding: 1rem;
+  line-height-step: 3px;
+}
+
+.card_textos p {
+  font-size: 1rem;
+}
+
+/* ================================================================= */
+
+.table {
+  width: 90vw;
+  margin: 0 auto;
+}
+
+thead {
+  background-color: #2c2c3f;
+  color: white;
+}
+
+.td_dom {
+  width: 200px;
+}
+
+/* ================================================================= */

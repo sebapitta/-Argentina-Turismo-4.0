@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins';
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.navbar {
+  color: #2c2c3f;
+  font-size: 1.1rem;
+}
+
+.navbar-toggler{
+  background-color:#95c3e1;
+}
+
+.navbar-toggler:focus{
+  color: rgba(103, 208, 230,0.3);
+}
+.active {
+  font-weight: 600;
+}
+
+.logo {
+  width: 5rem;
+}
+
+@media (min-width:768px) {
+  .logo {
+    width: 6rem;
+  }
+}
+
+/* =============================================== */
+.footer {
+  background-color: #2c2c3f;
+  color: white;
+  height: auto;
+  font-size: 0.9rem;  
+  padding-top: 1.5rem;
+  margin-top: auto;
+}
+
+.footer li {
+  list-style: none;
+}
+
+.footer a {
+  text-decoration: none;
+  color: #67d0e6;
+}
+
+.footer_container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0 1.3rem;
+}
+
+.contac_container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.contac_container img {
+  margin-bottom: 1rem;
+}
+
+.items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+  margin-bottom: 1rem;
+}
+
+.redes{
+  text-align: center;
+}
+.footer_links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.3rem;
+  gap: 1rem;
+  left: 0 ;
+}
+
+.la-angle-double-up{
+  font-size: 1.3rem;
+  color: white;
+}

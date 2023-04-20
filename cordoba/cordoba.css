@@ -1,0 +1,281 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family:poppins;
+  
+}
+
+.text1{
+  text-align: center;
+  color: #67d0e6;
+  justify-content: center;
+  margin: 1rem;
+}
+.text1parraf{
+  color: black;
+
+}
+
+/* carrusell*/
+.carousel-caption{
+  background-color: rgba(0, 0, 0,0.2);
+  border-radius: 15px;
+  
+}
+.subtitle {
+  text-align: center;
+}
+
+.contenedor-galery .card{
+  display: flex;
+  width: 80%;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  margin: 15px;
+  gap: 30px;
+  
+}
+
+/* eventos*/
+.card-prox-eventos{
+  margin-top: 2rem;
+}
+.text-eventos{
+  text-align: center;
+  color:  #67d0e6;
+}
+
+.boton-actividades{
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+}
+.card-group-prox-eventos{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: first baseline;
+}
+.img-eventos{
+  width: 250px;
+  height: 150px;
+  border-radius: 15px;
+}
+.card-evento{
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.card-eventos img{
+  width: 100%;
+  height: 200px;
+}
+.text-card{
+display: flex;
+flex-direction: column;
+width: 50%;
+}
+
+.card{
+display: flex;
+flex-direction: row;
+width: 80%;
+justify-content: space-around;
+align-items: center;
+border: none;
+border-radius: 50px;
+}
+
+.galery-images{
+  width: 300px;
+  height: 300px;
+  border-radius: 150px;
+  
+}
+.form-recuadro{
+  margin-bottom: 5rem;
+}
+
+.galeriatrasla {
+  padding: 15px;
+  margin: 20px;
+}
+.img{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  box-sizing: border-box;
+  
+}
+.galerias{
+  width: 120px;
+  height: 120px;
+}
+.card{
+  border-radius: 5%;
+
+}
+h2{
+  color:white ;
+  
+}
+
+
+
+#seccion-formulario {
+  background-image: url(./image-cordoda/cordoba-punilla/carlos-paz2.jpg);
+  width: 80%;
+  margin-left: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 600px;
+  background-repeat: no-repeat;
+  border-radius: 3%;
+  box-shadow: 10px 20px 20px rgba(0,0,0,.8); 
+  
+}
+
+#paso-2{
+  display:none ;
+  border-style: double;
+  text-align: center;
+  width: 80%;
+  margin-left: 100px;
+  height: 350px;
+padding: 10%;
+
+
+
+}
+
+
+
+
+/* punilla*/
+.region{
+  width: 95vw;
+  margin-left: 10px;
+}
+
+.title-punilla{
+  color: #67d0e6;
+  text-align: center;
+}
+
+.card-img-punilla img{
+  width: 600px;
+  height: 400px;
+  float: left;
+  border-radius: 5%;
+  margin: 10px;
+}
+
+
+.img-villa{
+  width: 200px;
+  height: 200px;
+  float: right;
+  border-radius: 3%;
+}
+.parraf-villa{
+  border-style: none;
+  height: 210px;
+  text-align: center;
+  margin: 8px;
+}
+.parraf-capilla{
+  border-style: none;
+  height: 210px;
+  text-align: center;
+  margin: 8px;
+}
+.img-capilla{
+  width: 200px;
+  height: 200px;
+  float: left;
+  border-radius: 3%;
+  margin: 2px;
+}
+.parraf-lafalda{
+border-style: none;
+height: 210px;
+text-align: center;
+margin: 8px;
+}
+
+.img-lafalda{
+  width: 200px;
+  height: 200px;
+  float: right;
+  border-radius: 3%;
+  margin: 2px;
+}
+.img-lacumbres{
+  width: 200px;
+  height: 200px;
+  float:right;
+  border-radius: 3%;
+  margin: 2px
+}
+.parraf-lacumbres{
+  border-style:none;
+  height: 210px;
+  text-align: center;
+  margin: 8px;
+}
+
+.img-cosquin{
+  width: 200px;
+  height: 200px;
+  float:left;
+  border-radius: 3%;
+  margin: 2px;
+}
+.parraf-cosquin{
+  border-style:none;
+  height: 210px;
+  text-align: center;
+  margin: 8px;
+}
+
+/*actividades en cordoba*/
+.actividades-cba{
+  text-align: center;
+
+}
+.ruta-vino{
+ 
+  width: 200px;
+  height: 200px;
+  border-radius: 5%;
+  box-shadow: 10px 20px 20px rgba(0,0,0,.8);
+  margin: 3%;
+
+  
+}
+.imagenes-vino{
+margin-left: 100px;
+  display: flex;
+  align-items: center;
+  width: 80vw;
+ flex-wrap: wrap;
+ justify-content: center;
+;
+  
+
+}
+
+.container h2{
+  text-align: center;
+  margin-top: 20%;
+  padding:30px;
+}
+
+

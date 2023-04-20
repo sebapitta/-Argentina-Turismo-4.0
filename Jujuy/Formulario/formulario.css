@@ -1,0 +1,13 @@
+form {
+    margin-bottom: 20px;
+  }
+  
+  #step2 {
+    display: none;
+  }
+  
+ .h3 {
+  text-align: center ;
+  flex-direction: column;
+ }
+  

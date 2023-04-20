@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link rel="stylesheet"
+    href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css"
+    integrity="sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI=" crossorigin="" />
+  <title>Entre Ríos</title>
+  <link rel="stylesheet" href="../../landingPage/css/main.css">
+  <link rel="stylesheet" href="../public/css/entrerios.css">
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" id="navbar">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="../../index.html">
+          <img src="../public/images/AT40-LOGO-05.png" alt="Logo Argentina Turismo 4.0" width="100">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="../../index.html">Inicio</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link active dropdown-toggle" href="#title" id="navbarDropdownMenuLink" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                Entre Rios
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <li><a class="dropdown-item" href="../pages/victoria.html">Victoria</a></li>
+                </ul>
+            </li>
+            
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../../landingPage/pages/team.html">El Equipo</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../../entreRios/pages/entreriosregister.html">Registrate</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../../entreRios/pages/entrerioslogin.html">Login</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <section class="carrousel">
+      <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="../public/images/Portada.jpg" alt="atardecer en el río" class="  carousel-item-img d-block w-100">
+          </div>
+          <div class="carousel-item">
+            <img src="../public/images/paranahd.jpg" class="carousel-item-img d-block w-100" alt="Pesca en Paraná">
+          </div>
+          <div class="carousel-item">
+            <img src="../public/images/hd1.jpg" class="carousel-item-img d-block w-100" alt="ibicuy">
+          </div>
+          <div class="carousel-item">
+            <img src="../public/images/canoa.jpg" class="carousel-item-img d-block w-100" alt="Termas">
+          </div>
+          <div class="carousel-item">
+            <img src="../public/images/hd4.jpg" class="carousel-item-img d-block w-100" alt="Colon">
+          </div>
+          <div class="carousel-item">
+            <img src="../public/images/hd2.jpg" class="carousel-item-img d-block w-100" alt="Concordia">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+    <section class="title">
+      <h1>Bienvenidos al Semillero del Mundo</h1>
+    </section>
+    <section class="info">
+      <div class="sec_info ">
+        <div class="text_info">
+          <h3>¿Qué es lo que caracteriza a Entre Ríos?</h3>
+          <div class="img_info"> <img src="../public/images/paisaje.jpg" alt="paisaje"></div>
+          <div class="img_info"> <img src="../public/images/playa.jpg" alt="playa"></div>
+          <p><span>La provincia está marcada por sus increíbles
+              recursos naturales y la belleza que contienen sus ríos,
+              playas, aguas termales y su tierra.
+              Cuenta con un inmenso abanico de actividades y productos turísticos,
+              siendo capital nacional de los circuitos termales y destacada por el
+              increíble despliegue de sus carnavales.</span>.</p>
+        </div>
+        <div class="img_info"> <img src="../public/images/caballo.jpg" alt="caballo"></div>
+      </div>
+    </section>
+    <section class="regiones">
+      <div class="cards_region cordillera">
+        <div class="container_card">
+          <div class="card mb-5">
+            <div class="card_img">
+              <img src="../public/images/carnaval2.jpg" class="card_rn" alt="carnaval2">
+            </div>
+            <div class="card_textos">
+              <h3>El “Carnaval del País” te espera en Gualeguaychú</h3>
+              <p>La mayor fiesta a cielo abierto de Argentina es un vistoso
+                espectáculo de calidad mundial con toda su majestuosidad para recibir
+                a los visitantes que quieran disfrutar del imponente show.</p>
+              <div class="img_info"> <img src="../public/images/carnaval.jpg" alt="carnaval"></div>
+            </div>
+          </div>
+          <div class="card mb-5">
+            <div class="card_img">
+              <img src="../public/images/palacio.jpg" class="card_rn" alt="palacio">
+            </div>
+            <div class="card_textos">
+              <h3>Entre Rios Cultural</h3>
+              <p>El perfil histórico y cultural de Entre Rios
+                se plasma en imponentes monumentos y sitios,
+                memorables espacios geográficos,
+                magníficas construcciones de diferenciados estilos
+                arquitectónicos, simples capillas y majestuosos templos,
+                teatros y ferias artesanales.</p>
+              <div class="img_info"> <img src="../public/images/cultural.jpg" alt="cultural"></div>
+            </div>
+          </div>
+          <div class="card mb-5">
+            <div class="card_img">
+              <img src="../public/images/er.jpg" class="card_rn" alt="er">
+            </div>
+            <div class="card_textos">
+              <h3>Paisajes</h3>
+              <p>El relieve entrerriano presenta un paisaje
+                de llanura sedimentaria originado en la erosión,
+                levemente ondulada y de alturas no superiores a los 100 m,
+                las conocidas “cuchillas entrerrianas”.
+              </p>
+              <div class="img_info"> <img src="../public/images/cuchillas.jpg" alt="cuchillas"></div>
+            </div>
+          </div>
+          <div class="card mb-5">
+            <div class="card_img">
+              <img src="../public/images/termascolon.jpg" class="card_rn" alt="termas de Colón">
+            </div>
+            <div class="card_textos">
+              <h3>Te esperamos con...</h3>
+              <p>Pesca, playas, carnavales y, más recientemente, termas,
+                son los productos temáticos que han ayudado a que el turismo
+                en Entre Ríos sea la opción elegida a la hora de planificar
+                un viaje de descanso o diversión, un fin de semana largo,
+                un feriado o las clásicas vacaciones de invierno y de verano.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+  </main>
+  <footer class="footer">
+    <div class="footer_container">
+      <div class="contac_container">
+        <div>
+          <img src="../public/images/AT40-LOGO-05.png" alt="Logo Argentina Turismo 4.0" width="100">
+        </div>
+        <div class="contact">
+          <ul>
+            <li>info_at4.0@argentinaturismo4.0.com</li>
+            <li>Sarmiento 440 - CABA</li>
+            <li><a href="#">El Equipo</a></li>
+            <li><a href="#">Contactanos</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="items">
+        <div>
+          <h6>A donde ir</h6>
+          <a href="../../cordoba/cordoba.html" target="_blank">Córdoba -</a>
+          <a href="./entreRios/pages/entrerios.html" target="_blank">Entre Ríos -</a>
+          <a href="../../Jujuy/jujuy.html" target="_blank">Jujuy -</a>
+          <a href="../../rioNegro/pages-rioNegro/rioNegro.html" target="_blank">Río Negro -</a>
+          <a href="../../Santa_fe/pages_santafe/santafe.html" target="_blank">Santa Fe</a>
+        </div>
+      </div>
+      <div class="redes">
+        <h6>Seguinos en:</h6>
+        <ul class="footer_links">
+          <li><a href="https://www.instagram.com" target="_blank"><i class="lab la-instagram"></i></a></li>
+          <li><a href="https://www.twitter.com" target="_blank"><i class="lab la-twitter"></i></a></li>
+          <li><a href="https://www.facebook.com" target="_blank"><i class="lab la-facebook-f"></i></a></li>
+          <li><a href="https://www.whatsapp.com" target="_blank"><i class="lab la-whatsapp"></i></a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+    integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+    integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+    crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"
+    integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM=" crossorigin=""></script>
+</body>
+
+</html>
